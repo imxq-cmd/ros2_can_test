@@ -1,0 +1,17 @@
+[0.007s] Invoking command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/imxq/ros2/can_test_ws/build/can_test_cpp -- -j16 -l16
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target can_receiver_node[0m
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target can_sender_node[0m
+[0.052s] [ 75%] [32mBuilding CXX object CMakeFiles/can_receiver_node.dir/src/can_receiver_node.cpp.o[0m
+[0.052s] [ 75%] Built target can_sender_node
+[1.406s] In file included from [01m[K/home/imxq/ros2/can_test_ws/src/can_test_cpp/include/can_test_cpp/can_receiver.hpp:9[m[K,
+[1.406s]                  from [01m[K/home/imxq/ros2/can_test_ws/src/can_test_cpp/src/can_receiver_node.cpp:1[m[K:
+[1.406s] /opt/ros/humble/include/ros2_socketcan/socket_can_receiver.hpp: In instantiation of ‘[01m[Kdrivers::socketcan::CanId drivers::socketcan::SocketCanReceiver::receive(T&, std::chrono::nanoseconds) const [with T = unsigned char [64]; <template-parameter-1-2> = void; std::chrono::nanoseconds = std::chrono::duration<long int, std::ratio<1, 1000000000> >][m[K’:
+[1.407s] [01m[K/home/imxq/ros2/can_test_ws/src/can_test_cpp/src/can_receiver_node.cpp:35:41:[m[K   required from here
+[1.407s] [01m[K/opt/ros/humble/include/ros2_socketcan/socket_can_receiver.hpp:115:32:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Data type too large for CAN
+[1.407s]   115 |     static_assert([01;31m[Ksizeof(data) <= MAX_DATA_LENGTH[m[K, "Data type too large for CAN");
+[1.407s]       |                   [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.407s] [01m[K/opt/ros/humble/include/ros2_socketcan/socket_can_receiver.hpp:115:32:[m[K [01;36m[Knote: [m[K‘[01m[K(sizeof (data) <= ((long unsigned int)drivers::socketcan::MAX_DATA_LENGTH))[m[K’ evaluates to false
+[1.627s] gmake[2]: *** [CMakeFiles/can_receiver_node.dir/build.make:76：CMakeFiles/can_receiver_node.dir/src/can_receiver_node.cpp.o] 错误 1
+[1.627s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/can_receiver_node.dir/all] 错误 2
+[1.627s] gmake: *** [Makefile:146：all] 错误 2
+[1.629s] Invoked command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/imxq/ros2/can_test_ws/build/can_test_cpp -- -j16 -l16

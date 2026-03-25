@@ -1,0 +1,41 @@
+[0.007s] Invoking command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/imxq/ros2/can_test_ws/build/can_test_cpp -- -j16 -l16
+[0.025s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.104s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.124s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.126s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.130s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.162s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.163s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.268s] -- Found can_msgs: 2.0.0 (/opt/ros/humble/share/can_msgs/cmake)
+[0.276s] -- Found ros2_socketcan: 1.3.0 (/opt/ros/humble/share/ros2_socketcan/cmake)
+[0.313s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.356s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.356s] -- Configured cppcheck include dirs: /home/imxq/ros2/can_test_ws/src/can_test_cpp/include;$<BUILD_INTERFACE:/home/imxq/ros2/can_test_ws/src/can_test_cpp/include>
+[0.356s] -- Configured cppcheck exclude dirs and/or files: 
+[0.357s] -- Added test 'lint_cmake' to check CMake code style
+[0.358s] -- Added test 'uncrustify' to check C / C++ code style
+[0.358s] -- Configured uncrustify additional arguments: 
+[0.358s] -- Added test 'xmllint' to check XML markup files
+[0.358s] -- Configuring done
+[0.385s] -- Generating done
+[0.390s] -- Build files have been written to: /home/imxq/ros2/can_test_ws/build/can_test_cpp
+[0.416s] [ 25%] [32mBuilding CXX object CMakeFiles/can_sender_node.dir/src/can_sender_node.cpp.o[0m
+[0.416s] [ 50%] [32mBuilding CXX object CMakeFiles/can_receiver_node.dir/src/can_receiver_node.cpp.o[0m
+[1.780s] In file included from [01m[K/home/imxq/ros2/can_test_ws/src/can_test_cpp/include/can_test_cpp/can_receiver.hpp:9[m[K,
+[1.780s]                  from [01m[K/home/imxq/ros2/can_test_ws/src/can_test_cpp/src/can_receiver_node.cpp:1[m[K:
+[1.780s] /opt/ros/humble/include/ros2_socketcan/socket_can_receiver.hpp: In instantiation of ‘[01m[Kdrivers::socketcan::CanId drivers::socketcan::SocketCanReceiver::receive(T&, std::chrono::nanoseconds) const [with T = unsigned char [64]; <template-parameter-1-2> = void; std::chrono::nanoseconds = std::chrono::duration<long int, std::ratio<1, 1000000000> >][m[K’:
+[1.780s] [01m[K/home/imxq/ros2/can_test_ws/src/can_test_cpp/src/can_receiver_node.cpp:35:41:[m[K   required from here
+[1.780s] [01m[K/opt/ros/humble/include/ros2_socketcan/socket_can_receiver.hpp:115:32:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Data type too large for CAN
+[1.780s]   115 |     static_assert([01;31m[Ksizeof(data) <= MAX_DATA_LENGTH[m[K, "Data type too large for CAN");
+[1.780s]       |                   [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.780s] [01m[K/opt/ros/humble/include/ros2_socketcan/socket_can_receiver.hpp:115:32:[m[K [01;36m[Knote: [m[K‘[01m[K(sizeof (data) <= ((long unsigned int)drivers::socketcan::MAX_DATA_LENGTH))[m[K’ evaluates to false
+[2.009s] gmake[2]: *** [CMakeFiles/can_receiver_node.dir/build.make:76：CMakeFiles/can_receiver_node.dir/src/can_receiver_node.cpp.o] 错误 1
+[2.009s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/can_receiver_node.dir/all] 错误 2
+[2.009s] gmake[1]: *** 正在等待未完成的任务....
+[2.136s] [ 75%] [32m[1mLinking CXX executable can_sender_node[0m
+[2.222s] [ 75%] Built target can_sender_node
+[2.223s] gmake: *** [Makefile:146：all] 错误 2
+[2.224s] Invoked command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/imxq/ros2/can_test_ws/build/can_test_cpp -- -j16 -l16

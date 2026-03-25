@@ -1,0 +1,6 @@
+Invoking command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/imxq/ros2/can_test_ws/src/can_test_cpp -DCMAKE_INSTALL_PREFIX=/home/imxq/ros2/can_test_ws/install/can_test_cpp
+Invoked command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/imxq/ros2/can_test_ws/src/can_test_cpp -DCMAKE_INSTALL_PREFIX=/home/imxq/ros2/can_test_ws/install/can_test_cpp
+Invoking command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/imxq/ros2/can_test_ws/build/can_test_cpp -- -j16 -l16
+Invoked command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/imxq/ros2/can_test_ws/build/can_test_cpp -- -j16 -l16
+Invoking command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/imxq/ros2/can_test_ws/build/can_test_cpp
+Invoked command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/imxq/ros2/can_test_ws/build/can_test_cpp

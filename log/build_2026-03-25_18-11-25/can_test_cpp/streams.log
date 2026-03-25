@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp': CMAKE_PREFIX_PATH=/home/imxq/ros2/can_test_ws/install/can_test_cpp:/opt/ros/humble:/opt/ros/noetic /usr/bin/cmake --build /home/imxq/ros2/can_test_ws/build/can_test_cpp -- -j16 -l16
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target can_receiver_node[0m
+[0.048s] [ 25%] [32mBuilding CXX object CMakeFiles/can_sender_node.dir/src/can_sender_node.cpp.o[0m
+[0.052s] [ 75%] Built target can_receiver_node
+[1.826s] [100%] [32m[1mLinking CXX executable can_sender_node[0m
+[1.913s] [100%] Built target can_sender_node
+[1.921s] Invoked command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp' returned '0': CMAKE_PREFIX_PATH=/home/imxq/ros2/can_test_ws/install/can_test_cpp:/opt/ros/humble:/opt/ros/noetic /usr/bin/cmake --build /home/imxq/ros2/can_test_ws/build/can_test_cpp -- -j16 -l16
+[1.927s] Invoking command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp': CMAKE_PREFIX_PATH=/home/imxq/ros2/can_test_ws/install/can_test_cpp:/opt/ros/humble:/opt/ros/noetic /usr/bin/cmake --install /home/imxq/ros2/can_test_ws/build/can_test_cpp
+[1.932s] -- Install configuration: ""
+[1.932s] -- Installing: /home/imxq/ros2/can_test_ws/install/can_test_cpp/lib/can_test_cpp/can_sender_node
+[1.932s] -- Set runtime path of "/home/imxq/ros2/can_test_ws/install/can_test_cpp/lib/can_test_cpp/can_sender_node" to ""
+[1.932s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/lib/can_test_cpp/can_receiver_node
+[1.932s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/ament_index/resource_index/package_run_dependencies/can_test_cpp
+[1.932s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/ament_index/resource_index/parent_prefix_path/can_test_cpp
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/environment/ament_prefix_path.sh
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/environment/ament_prefix_path.dsv
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/environment/path.sh
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/environment/path.dsv
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/local_setup.bash
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/local_setup.sh
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/local_setup.zsh
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/local_setup.dsv
+[1.933s] -- Installing: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/package.dsv
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/ament_index/resource_index/packages/can_test_cpp
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/cmake/can_test_cppConfig.cmake
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/cmake/can_test_cppConfig-version.cmake
+[1.933s] -- Up-to-date: /home/imxq/ros2/can_test_ws/install/can_test_cpp/share/can_test_cpp/package.xml
+[1.934s] Invoked command in '/home/imxq/ros2/can_test_ws/build/can_test_cpp' returned '0': CMAKE_PREFIX_PATH=/home/imxq/ros2/can_test_ws/install/can_test_cpp:/opt/ros/humble:/opt/ros/noetic /usr/bin/cmake --install /home/imxq/ros2/can_test_ws/build/can_test_cpp

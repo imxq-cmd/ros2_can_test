@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7f1d6b49837b023391a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "can_test_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "can_receiver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_receiver_node-58c5517b8a722735f65c.json",
+					"name" : "can_receiver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "can_sender_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_sender_node-8064f81afef7c07c27cf.json",
+					"name" : "can_sender_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "can_test_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_test_cpp_uninstall-c7a005aa2ac3abdbfef0.json",
+					"name" : "can_test_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-68c400d9474da0af4ba5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/imxq/ros2/can_test_ws/build/can_test_cpp",
+		"source" : "/home/imxq/ros2/can_test_ws/src/can_test_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
